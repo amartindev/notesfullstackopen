@@ -29,7 +29,7 @@ let notes = [
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.send('<h1>Hello World!</h1>')
+  res.send('<h1>Hello Mundo!</h1>')
 })
 
 const generateId = () => {
